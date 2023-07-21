@@ -1,0 +1,15 @@
+{
+  "name": "js-routes-treeshaking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Josh Wilson",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack && prettier --write dist/main.js"
+  }
+}
